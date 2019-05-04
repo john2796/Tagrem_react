@@ -4,53 +4,48 @@ import StateFinder from './components/state-finder/StateFinder';
 
 const App = () => (
   <div className="App">
-    <div>
+    <div className="container">
       <h1>In Gravida Libero</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim
-        neque, molestie ut placerat id, tincidunt in sem. Pellentesque sodales
-        lobortis eros nec pulvinar. In ac ultrices ipsum, ultricies semper nisi.
-        Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac,
-        iaculis ipsum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim neque, molestie ut
+        placerat id, tincidunt in sem. Pellentesque sodales lobortis eros nec pulvinar. In ac
+        ultrices ipsum, ultricies semper nisi. Morbi ac hendrerit nulla. Sed nec ex commodo,
+        tincidunt felis ac, iaculis ipsum.
       </p>
-      <p>
-        Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac,
-        iaculis ipsum
-      </p>
-      <h2>State Finder</h2>
+      <p>Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum</p>
+      <h3>State Finder</h3>
+      <p>Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum</p>
       <StateFinder />
       <button type="submit">Submit</button>
       <h2>In Gravida</h2>
       <h2>In gravida</h2>
       <h3>Cras ac mauris</h3>
       <p>nteger dictum hendrerit pharetra. Cras fermentum posuere egestas.</p>
-      <a>Learn More</a>
+      <button type="button">Learn More</button>
       <h3>Curabitur elementum</h3>
       <p>
-        Cras vel imperdiet mauris. Pellentesque libero mauris, interdum a felis
-        et, condimentum mattis erat.
+        Cras vel imperdiet mauris. Pellentesque libero mauris, interdum a felis et, condimentum
+        mattis erat.
       </p>
-      <a>Learn More</a>
+      <button type="button">Learn More</button>
       <h3>Awards and Recognitions</h3>
       <p>
-        Aliquam eget ligula mauris. Etiam viverra non turpis eu auctor. Nullam
-        pretium est libero, et condimentum massa egestas id.
+        Aliquam eget ligula mauris. Etiam viverra non turpis eu auctor. Nullam pretium est libero,
+        et condimentum massa egestas id.
       </p>
-      <a>Learn More</a>
+      <button type="button">Learn More</button>
       <h3>Morbi placerat </h3>
-      <p>
-        Nam feugiat ultrices ligula eget faucibus. Mauris convallis ipsum est.
-      </p>
-      <a>Learn More</a>
+      <p>Nam feugiat ultrices ligula eget faucibus. Mauris convallis ipsum est.</p>
+      <button type="button">Learn More</button>
       <h3>Suspendisse eu</h3>
       <p>Duis pretium elementum dui, id feugiat neque facilisis vel.</p>
-      <a>Learn More</a>
+      <button type="button">Learn More</button>
       <h3> Integer faucibus</h3>
       <p>
-        Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor
-        sit amet enim ullamcorper, a aliquet odio rutrum.
+        Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim
+        ullamcorper, a aliquet odio rutrum.
       </p>
-      <a>Learn More</a>
+      <button type="button">Learn More</button>
       <h2>Products</h2>
       Fitler by
       <select>
@@ -62,21 +57,22 @@ const App = () => (
       </select>
       <ul>
         <li>
-          Product Title 1 <br />
-          Starting at $500 <br />
+          Product Title 1
+          <br />
+          Starting at $500
+          <br />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           <br />
-          <a>Learn More</a>
+          <button type="button">Learn More</button>
         </li>
-         <li>
+        <li>
           Product Title 2
           <br />
           Starting at 1900
           <br />
-          Donec ornare magna sit amet erat molestie sollicitudin ac vitae
-          lectus.
+          Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.
           <br />
-          <a>Learn More</a>
+          <button type="button">Learn More</button>
         </li>
         <li>
           Product Title 3
@@ -85,7 +81,7 @@ const App = () => (
           <br />
           Cras non metus sed odio tristique imperdiet.
           <br />
-          <a>Learn More</a>
+          <button type="button">Learn More</button>
         </li>
         <li>
           Product Title 3
@@ -94,7 +90,7 @@ const App = () => (
           <br />
           Pellentesque mattis tellus ut molestie dapibus.
           <br />
-          <a>Learn More</a>
+          <button type="button">Learn More</button>
         </li>
       </ul>
     </div>
