@@ -1,5 +1,5 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
@@ -87,12 +87,11 @@ function App() {
         <h3>Awards and Recognitions</h3>
         <p>
           Aliquam eget ligula mauris. Etiam viverra non turpis eu auctor. Nullam
-          pretium est libero, et condimentum massa egestas id.{" "}
+          pretium est libero, et condimentum massa egestas id.
         </p>
         <a>Learn More</a>
         <h3>Morbi placerat </h3>
         <p>
-          {" "}
           Nam feugiat ultrices ligula eget faucibus. Mauris convallis ipsum est.
         </p>
         <a>Learn More</a>
@@ -101,7 +100,6 @@ function App() {
         <a>Learn More</a>
         <h3> Integer faucibus</h3>
         <p>
-          {" "}
           Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet
           tortor sit amet enim ullamcorper, a aliquet odio rutrum.
         </p>

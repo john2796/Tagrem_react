@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prior to interviewing for any technical position with Tagrem, we ask all candidates to complete a practical test.  The test is purely intended to ensure that candidates have the requisite skills to add value to the organization from their first day on the job.
 
-## Available Scripts
 
-In the project directory, you can run:
+Before you begin:
+-----------------
 
-### `npm start`
+1. Look at materials\final folder for the final result that we expect you to deliver.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Note that there are responsive versions beside desktop version
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+2. The index.html file has all the HTML content already prepared for you to save your typing time.
 
-### `npm test`
+*You can start with the index.html file, and change the anything you want.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Look at materials\specs for documents about the page interaction and color, font-size, etc.
 
-### `npm run build`
+4. You can use any **javascript**/css framework/library you want.  Feel free to use a CDN for dependencies.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Please send your test as a zip file
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+What is included in the Materials Folders:
+--------------------
 
-### `npm run eject`
+* Materials- Final Folder: Screenshots of what the final page should look like. This is what we expect your test to look like when you finish.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Materials- Images Folder: Contains all the images you need to include in your final page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Materials- Specs Folder: Use these as a guideline but use your own judgement on what looks most like the provided mocks in the Final folder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Things we are looking for
+--------------------
 
-## Learn More
+1. HTML/CSS desktop version that look like the mocks provided in the Final folder.  This should be responsive and degrade gracefully down to mobile
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+2. Javascript to support all interactive features such as: modals, price filters and product detail selection (details in the specs/screen_mocks.pdf)
