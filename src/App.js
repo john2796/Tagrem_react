@@ -51,6 +51,14 @@ const App = () => (
 
         {/* -------> Products Section Card <------- */}
         <ProductCards />
+
+        <div className="product-details-wrapper ">
+          <h2>Products</h2>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam illo quis consequuntur!
+          </p>
+        </div>
       </section>
     </div>
   </AppStyle>

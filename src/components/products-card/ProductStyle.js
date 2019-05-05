@@ -52,6 +52,7 @@ export const ProductCardStyle = styled.ul`
       box-shadow: none;
       border: none;
       color: var(--blue);
+      cursor: pointer;
       &:after {
         background: url(${arrowBlue}) no-repeat;
       }

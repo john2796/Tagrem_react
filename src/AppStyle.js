@@ -107,4 +107,11 @@ export const AppStyle = styled.div`
       margin-top: 7px;
     }
   }
+
+  .product-details-wrapper {
+    background: var(--product-white);
+    padding: 100px 0;
+    padding: 20px;
+    margin-top: 10px;
+  }
 `;
