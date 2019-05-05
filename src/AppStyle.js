@@ -89,4 +89,11 @@ export const AppStyle = styled.div`
     background: var(--dark-white);
     margin-bottom: 3px;
   }
+  .product-filter {
+    display: flex;
+
+    h2 {
+      margin-right: auto;
+    }
+  }
 `;

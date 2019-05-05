@@ -2,6 +2,7 @@ import React from 'react';
 
 import { gravidaData } from '../../dummyData';
 import { GravidaStyle } from './GravidaStyle';
+import MainButton from '../button/MainButton';
 
 const Gravida = () => (
   <GravidaStyle>
@@ -12,7 +13,7 @@ const Gravida = () => (
           <p>{info}</p>
         </div>
         <div className={`gravida-btn-${id}`}>
-          <button type="button">Learn More</button>
+          <MainButton type="button">Learn More</MainButton>
         </div>
       </div>
     ))}

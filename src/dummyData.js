@@ -1,3 +1,8 @@
+import cereal from './images/cereal_b.jpg';
+import flower from './images/flower_b.jpg';
+import machine from './images/machine_b.jpg';
+import candy from './images/candy_b.jpg';
+
 export const gravidaData = [
   {
     id: 1,
@@ -31,5 +36,36 @@ export const gravidaData = [
     title: 'Integer faucibus',
     info:
       'Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.',
+  },
+];
+
+export const productData = [
+  {
+    id: 1,
+    title: 'Product Title 1',
+    price: 500,
+    image: cereal,
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 2,
+    title: 'Product Title 2',
+    price: 1900,
+    image: flower,
+    content: 'Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.',
+  },
+  {
+    id: 3,
+    title: 'Product Title 3',
+    price: 2730,
+    image: machine,
+    content: 'Cras non metus sed odio tristique imperdiet.',
+  },
+  {
+    id: 4,
+    title: 'Product Title 4',
+    price: 731,
+    image: candy,
+    content: 'Pellentesque mattis tellus ut molestie dapibus.',
   },
 ];
