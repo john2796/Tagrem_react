@@ -37,14 +37,16 @@ const App = () => (
       <section className="product box">
         <div className="product-filter">
           <h2>Products</h2>
-          <span>Fitler by</span>
-          <select>
-            <option>All</option>
-            <option>Less Than $500</option>
-            <option>From $500 to $1000</option>
-            <option>From $1000 to $2000</option>
-            <option>$2000 or more</option>
-          </select>
+          <div className="select-wrapper">
+            <span>Fitler by</span>
+            <select>
+              <option>All</option>
+              <option>Less Than $500</option>
+              <option>From $500 to $1000</option>
+              <option>From $1000 to $2000</option>
+              <option>$2000 or more</option>
+            </select>
+          </div>
         </div>
 
         {/* -------> Products Section Card <------- */}

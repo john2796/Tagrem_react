@@ -84,16 +84,27 @@ export const AppStyle = styled.div`
       }
     }
   }
+  /* ------------> Box <---------------*/
+
   .box {
     padding: 40px;
     background: var(--dark-white);
     margin-bottom: 3px;
   }
+  /* ------------> Product <---------------*/
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
   .product-filter {
     display: flex;
-
     h2 {
       margin-right: auto;
+    }
+    .select-wrapper {
+      margin-top: 7px;
     }
   }
 `;
