@@ -92,7 +92,6 @@ export const AppStyle = styled.div`
     margin-bottom: 3px;
   }
   /* ------------> Product <---------------*/
-
   .product {
     display: flex;
     flex-direction: column;
@@ -106,12 +105,5 @@ export const AppStyle = styled.div`
     .select-wrapper {
       margin-top: 7px;
     }
-  }
-
-  .product-details-wrapper {
-    background: var(--product-white);
-    padding: 100px 0;
-    padding: 20px;
-    margin-top: 10px;
   }
 `;

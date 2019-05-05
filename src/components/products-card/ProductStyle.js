@@ -14,6 +14,7 @@ export const ProductCardStyle = styled.ul`
     padding: 15px;
     width: 300px;
     margin-right: 15px;
+    cursor: pointer;
     &:last-child {
       margin-right: 0;
     }
