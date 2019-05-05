@@ -4,7 +4,7 @@ import arrowBlue from '../../images/arrow-btn-blue.png';
 
 export const ProductCardStyle = styled.ul`
   display: flex;
-  margin-bottom: 7px;
+  margin-bottom: 13px;
 
   li {
     display: flex;

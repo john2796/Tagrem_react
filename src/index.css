@@ -181,7 +181,7 @@ h3 {
   font-weight: normal;
 }
 
-.container {
+.wrapper {
   max-width: 960px;
   margin: 0 auto;
 }

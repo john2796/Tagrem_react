@@ -97,13 +97,16 @@ export const AppStyle = styled.div`
     flex-direction: column;
     margin-bottom: 45px;
   }
+  /* ------------> Product Filter Style <---------------*/
+
   .product-filter {
     display: flex;
     h2 {
       margin-right: auto;
     }
     .select-wrapper {
-      margin-top: 7px;
+      display: flex;
+      border: 1px solid red;
     }
   }
 `;

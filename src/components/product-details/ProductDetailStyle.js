@@ -6,4 +6,12 @@ export const ProductDetailStyle = styled.div`
   padding: 100px 0;
   padding: 20px;
   margin-top: 10px;
+
+  h2 {
+    display: flex;
+    span {
+      margin-left: auto;
+      cursor: pointer;
+    }
+  }
 `;

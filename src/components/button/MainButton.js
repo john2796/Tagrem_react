@@ -9,14 +9,15 @@ const MainButtonStyle = styled.div`
   button {
     background: var(--white);
     display: block;
-    padding: 8.9px 15px;
+    padding: 11.9px 15px;
     color: var(--blue);
     font-size: 1.4rem;
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 2px #fff inset;
     cursor: pointer;
     outline: none;
-
+    display: flex;
+    align-items: center;
     &:hover {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
       background: var(--dark-blue);
@@ -27,7 +28,7 @@ const MainButtonStyle = styled.div`
         width: 5px;
         height: 12px;
         position: relative;
-        top: -2px;
+        top: 2.5px;
         display: inline-flex;
         align-items: center;
         justify-content: space-between;
@@ -40,7 +41,7 @@ const MainButtonStyle = styled.div`
       width: 5px;
       height: 12px;
       position: relative;
-      top: -2px;
+      top: 2.5px;
       display: inline-flex;
       align-items: center;
       justify-content: space-between;
