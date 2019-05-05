@@ -1,25 +1,28 @@
 import React from 'react';
 import { productData } from '../../dummyData';
+import { ProductCardStyle } from './ProductStyle';
 
 import MainButton from '../button/MainButton';
 
 const ProductCards = () => (
-  <ul>
+  <ProductCardStyle>
     {productData.map(({
       price, id, title, content, image,
     }) => (
       <li key={id}>
         <h3>{title}</h3>
-        <p>
+        <p className="staring">
 Starting at $
           {price}
         </p>
-        <p>{content}</p>
+        <p className="content">{content}</p>
         <img src={image} alt={title} />
-        <MainButton style={{ border: 'none', boxShadow: 'none' }}>Learn More</MainButton>
+        <MainButton className="productBtn" onClick={() => console.log('testing')}>
+          Learn More
+        </MainButton>
       </li>
     ))}
-  </ul>
+  </ProductCardStyle>
 );
 
 export default ProductCards;

@@ -136,7 +136,9 @@ table {
   --dark-white: #f0f0f0;
   --blue: #002b5a;
   --dark-blue: #0f2043;
-  --ptag-gray: #696969;
+  --ptag-gray: #666666;
+  --staring: #4987ca;
+  --product-white: #f8f8f8;
 }
 * {
   box-sizing: border-box;
