@@ -101,7 +101,6 @@ class StateFinder extends Component {
   };
 
   handleChange = (state) => {
-    console.log(state.label);
     this.setState(prevState => ({ currentValue: state.label, modal: !prevState.modal }));
   };
 

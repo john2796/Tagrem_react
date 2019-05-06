@@ -4,12 +4,15 @@ import { AppStyle } from './AppStyle';
 import StateFinder from './components/state-finder/StateFinder';
 import Gravida from './components/gravida/Gravida';
 import ProductCards from './components/products-card/ProductCards';
+import SocialMedia from './components/social-media/SocialMedia';
 
 const App = () => (
   <AppStyle>
-    <div className="banner" />
+    <div className="banner">
+      <SocialMedia />
+    </div>
     <div className="wrapper">
-      {/* -------> header <------- */}
+      {/* -------> header Section<------- */}
       <header>
         <div className="header-content">
           <h1>In Gravida Libero</h1>

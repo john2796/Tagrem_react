@@ -16,7 +16,6 @@
     "global-require": "off",
     "import/prefer-default-export": "off",
     "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
-    "no-console": "off",
     "react/require-default-props": "off"
   }
 }
