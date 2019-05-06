@@ -70,6 +70,7 @@ class ProductCards extends Component {
             <Select
               defaultValue={selectOptions[0]}
               options={selectOptions}
+              isSearchable={false}
               onChange={this.handleChange}
             />
           </div>

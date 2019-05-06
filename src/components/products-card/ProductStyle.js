@@ -12,7 +12,8 @@ export const ProductCardStyle = styled.ul`
     flex-direction: column;
     background: var(--product-white);
     padding: 15px;
-    width: 300px;
+    max-width: 209px;
+    min-height: 317px;
     margin-right: 15px;
     cursor: pointer;
     &:last-child {
