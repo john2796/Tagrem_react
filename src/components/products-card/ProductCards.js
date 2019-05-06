@@ -29,7 +29,6 @@ class ProductCards extends Component {
   };
 
   handleChange = (option) => {
-    console.log(option.value);
     if (option.value === 0) {
       this.setState(prevState => ({
         ...prevState.pData,
@@ -60,7 +59,6 @@ class ProductCards extends Component {
 
   render() {
     const { collapse, activeCard, pData } = this.state;
-    console.log(pData);
     return (
       <>
         <div className="product-filter">

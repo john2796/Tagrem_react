@@ -26,6 +26,7 @@ export const AppStyle = styled.div`
       p {
         font-size: 1.8rem;
         line-height: 1.35;
+
         color: var(--light-gray);
       }
       p:first-of-type {
@@ -45,6 +46,10 @@ export const AppStyle = styled.div`
       color: #002b5a;
       background: var(--bg-gray);
       height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
       h4 {
         font-size: 2rem;
         padding: 20px 20px 0px 20px;
@@ -56,34 +61,34 @@ export const AppStyle = styled.div`
         margin-bottom: 5px;
       }
       /* ------------> Custom Select <---------------*/
-
-      .custom-select {
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        overflow: hidden;
-        background: #fafafa;
-        margin: 0 20px 20px 20px;
-        cursor: pointer;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
-        select {
-          padding: 7px 10px;
-          border: none;
-          box-shadow: none;
-          background: transparent;
-          background-image: none;
-          -webkit-appearance: none;
-          width: 100%;
-          &:options[value='state'] {
-            background-image: url(${search});
-          }
+      .state-select {
+        margin: 0 20px 17px 20px;
+        font-size: 1.3rem;
+        color: var(--blue);
+        .state-select__indicator > svg {
+          display: none;
         }
-
-        select:focus {
-          outline: none;
+        .state-select__value-container {
+          position: initial;
+        }
+        .state-select__control {
+          min-height: 32px;
+        }
+        .state-select__indicator-separator {
+          background-color: hsl(0, 0%, 90%);
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
+        .state-select__dropdown-indicator {
+          background: url(${search}) no-repeat;
+          background-position: center;
+          display: block;
+          width: 50px;
         }
       }
     }
   }
+
   /* ------------> Box <---------------*/
 
   .box {
@@ -117,14 +122,12 @@ export const AppStyle = styled.div`
     .testing {
       position: relative;
       box-sizing: border-box;
+      color: var(--blue);
       width: 138px;
       font-size: 1.3rem;
       padding-bottom: -20px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
       max-height: 36px;
-      .testing__indicator-separator {
-        width: 0;
-      }
     }
   }
 `;

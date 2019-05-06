@@ -28,7 +28,6 @@ class ProductDetails extends Component {
     const dynamicStyleTwo = two ? 'detail-list-active' : '';
     const dynamicStyleThree = three ? 'detail-list-active' : '';
 
-    console.log(this.state);
     return (
       <Collapse isOpen={isOpen}>
         <ProductDetailStyle>
