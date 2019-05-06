@@ -152,7 +152,7 @@ export const AppStyle = styled.div`
       position: relative;
       box-sizing: border-box;
       color: var(--blue);
-      width: 138px;
+      width: 151px;
       font-size: 1.3rem;
       padding-bottom: -20px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
