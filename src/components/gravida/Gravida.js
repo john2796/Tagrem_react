@@ -12,7 +12,7 @@ const Gravida = () => (
           <h3>{title}</h3>
           <p>{info}</p>
         </div>
-        <div className={`gravida-btn-${id}`}>
+        <div className={`gravida-btn-${id} gravida-btn`}>
           <MainButton type="button">Learn More</MainButton>
         </div>
       </div>

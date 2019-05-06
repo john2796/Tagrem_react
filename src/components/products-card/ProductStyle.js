@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import arrowBlue from '../../images/arrow-btn-blue.png';
 
 export const ProductCardStyle = styled.ul`
-  display: flex;
   margin-bottom: 13px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 
   li {
     display: flex;
@@ -12,10 +14,15 @@ export const ProductCardStyle = styled.ul`
     flex-direction: column;
     background: var(--product-white);
     padding: 15px;
-    max-width: 209px;
-    min-height: 317px;
-    margin-right: 15px;
     cursor: pointer;
+    width: 23%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    @media (max-width: 768px) {
+      width: 47%;
+      margin-bottom: 17px;
+      margin-right: 17px;
+    }
     &:last-child {
       margin-right: 0;
     }
@@ -37,6 +44,9 @@ export const ProductCardStyle = styled.ul`
   }
   img {
     margin-bottom: 15px;
+    @media (max-width: 768px) {
+      width: 70%;
+    }
   }
   .productBtn {
     text-align: left;

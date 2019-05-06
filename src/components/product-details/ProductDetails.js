@@ -43,6 +43,7 @@ class ProductDetails extends Component {
                 </button>
               </h2>
               <p className="detail-staring">{price}</p>
+
               <div className="detail-content-wrapper">
                 <div className="detail-contents">
                   <p className="detail-ptag">{desc}</p>
@@ -95,9 +96,8 @@ class ProductDetails extends Component {
                   </div>
                   )}
                 </div>
+                <MainButton className="detail-btn">Buy Online</MainButton>
               </div>
-
-              <MainButton className="detail-btn">Buy Online</MainButton>
             </div>
             ),
           )}

@@ -18,6 +18,7 @@ const MainButtonStyle = styled.div`
     outline: none;
     display: flex;
     align-items: center;
+    transition: all 0.25s ease;
     &:hover {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
       background: var(--dark-blue);

@@ -34,6 +34,11 @@ export const ProductDetailStyle = styled.div`
   }
   .detail-content-wrapper {
     display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
   .detail-ptag {
     line-height: 1.25;
@@ -42,13 +47,24 @@ export const ProductDetailStyle = styled.div`
     font-size: 1.3rem;
   }
   .detail-contents {
-    width: 500px;
+    width: 50%;
     margin-right: 26px;
+    @media (max-width: 768px) {
+      order: -1;
+      width: 100%;
+    }
   }
   /* ------------> Big Image right side <---------------*/
   .detail-image-wrapper {
-    width: 501px;
+    width: 46%;
+
     position: relative;
+    @media (max-width: 768px) {
+      order: 2;
+      width: 100%;
+      flex: -1;
+      margin-bottom: 20px;
+    }
   }
   /* ------------> Overlay label on first image <---------------*/
   .detail-nums-wrapper {
@@ -69,16 +85,28 @@ export const ProductDetailStyle = styled.div`
       background: url(${sprite}) 0px -22px no-repeat;
       top: 138px;
       left: 91px;
+      @media (max-width: 768px) {
+        top: 188px;
+        left: 141px;
+      }
     }
     span.list-img-1:before {
       background: url(${sprite}) 0px -66px no-repeat;
       bottom: 149px;
       left: 273px;
+      @media (max-width: 768px) {
+        bottom: 137px;
+        left: 403px;
+      }
     }
     span.list-img-2:before {
       background: url(${sprite}) 0px -111px no-repeat;
       bottom: 81px;
       right: 187px;
+      @media (max-width: 768px) {
+        bottom: 41px;
+        right: 261px;
+      }
     }
   }
 
@@ -125,6 +153,10 @@ export const ProductDetailStyle = styled.div`
     background: var(--blue);
     color: var(--white);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0px #fff inset;
+    @media (max-width: 768px) {
+      order: 1;
+      flex: 1;
+    }
     &:hover {
       color: var(--dark-blue);
       background: var(--white);

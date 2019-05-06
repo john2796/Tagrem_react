@@ -19,6 +19,10 @@ export const AppStyle = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     /* ------------> Header Contents <---------------*/
     .header-content {
       width: 85%;
@@ -49,7 +53,11 @@ export const AppStyle = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
+      @media (max-width: 769px) {
+        width: 95%;
+        margin: 0 auto;
+        z-index: -1;
+      }
       h4 {
         font-size: 2rem;
         padding: 20px 20px 0px 20px;
@@ -119,7 +127,7 @@ export const AppStyle = styled.div`
       font-size: 1.3rem;
       color: var(--ptag-gray);
     }
-    .testing {
+    .filter-select {
       position: relative;
       box-sizing: border-box;
       color: var(--blue);
