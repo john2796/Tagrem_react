@@ -66,8 +66,9 @@ class ProductCards extends Component {
         <div className="product-filter">
           <h2>Products</h2>
           <div className="select-wrapper">
-            <p>Fitler by</p>
+            <p>Filter by</p>
             <Select
+              className="testing"
               defaultValue={selectOptions[0]}
               options={selectOptions}
               isSearchable={false}

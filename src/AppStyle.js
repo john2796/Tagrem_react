@@ -104,9 +104,27 @@ export const AppStyle = styled.div`
     h2 {
       margin-right: auto;
     }
-    .select-wrapper {
-      display: flex;
-      border: 1px solid red;
+  }
+  .select-wrapper {
+    display: flex;
+    height: 39px;
+    align-items: center;
+    p {
+      margin-right: 11px;
+      font-size: 1.3rem;
+      color: var(--ptag-gray);
+    }
+    .testing {
+      position: relative;
+      box-sizing: border-box;
+      width: 138px;
+      font-size: 1.3rem;
+      padding-bottom: -20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
+      max-height: 36px;
+      .testing__indicator-separator {
+        width: 0;
+      }
     }
   }
 `;
