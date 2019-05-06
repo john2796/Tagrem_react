@@ -4,6 +4,12 @@ export const SocialStyle = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
+  @media (max-width: 768px) {
+    width: 94%;
+  }
+  @media (max-width: 414px) {
+    display: none;
+  }
   .social-wrapper {
     margin: 20px;
     display: flex;

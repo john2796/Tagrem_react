@@ -188,7 +188,12 @@ h3 {
 @media (max-width: 768px) {
   .wrapper {
     max-width: 768px;
-    border: 1px solid red;
     margin: auto 20px;
+  }
+}
+@media (max-width: 414px) {
+  .wrapper {
+    max-width: 414px;
+    margin: auto 10px;
   }
 }

@@ -57,8 +57,8 @@ export const ProductDetailStyle = styled.div`
   /* ------------> Big Image right side <---------------*/
   .detail-image-wrapper {
     width: 46%;
-
     position: relative;
+
     @media (max-width: 768px) {
       order: 2;
       width: 100%;
@@ -69,10 +69,14 @@ export const ProductDetailStyle = styled.div`
   /* ------------> Overlay label on first image <---------------*/
   .detail-nums-wrapper {
     position: absolute;
+    display: block;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    @media (max-width: 768px) {
+      display: none;
+    }
     span.detail-list-img:before {
       object-fit: cover;
       transition: all 0.2s ease-in-out;
@@ -156,6 +160,9 @@ export const ProductDetailStyle = styled.div`
     @media (max-width: 768px) {
       order: 1;
       flex: 1;
+    }
+    @media (max-width: 414px) {
+      width: 92%;
     }
     &:hover {
       color: var(--dark-blue);

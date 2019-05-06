@@ -19,6 +19,11 @@ const MainButtonStyle = styled.div`
     display: flex;
     align-items: center;
     transition: all 0.25s ease;
+    @media (max-width: 414px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
     &:hover {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
       background: var(--dark-blue);

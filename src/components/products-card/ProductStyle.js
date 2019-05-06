@@ -23,6 +23,10 @@ export const ProductCardStyle = styled.ul`
       margin-bottom: 17px;
       margin-right: 17px;
     }
+    @media (max-width: 414px) {
+      width: 100%;
+      margin-right: 0;
+    }
     &:last-child {
       margin-right: 0;
     }
@@ -47,6 +51,11 @@ export const ProductCardStyle = styled.ul`
     @media (max-width: 768px) {
       width: 70%;
     }
+    @media (max-width: 414px) {
+      width: 100%;
+      height: 164px;
+      object-fit: cover;
+    }
   }
   .productBtn {
     text-align: left;
@@ -56,7 +65,9 @@ export const ProductCardStyle = styled.ul`
     box-shadow: none;
     border: none;
     color: var(--ptag-gray);
-
+    @media (max-width: 414px) {
+      justify-content: flex-start;
+    }
     &:hover {
       background: initial;
       margin: 0;

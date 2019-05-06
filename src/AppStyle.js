@@ -12,6 +12,9 @@ export const AppStyle = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 414px) {
+      height: 250px;
+    }
   }
 
   /* ------------> Header <---------------*/
@@ -27,6 +30,9 @@ export const AppStyle = styled.div`
     .header-content {
       width: 85%;
       margin: 20px 0px 20px 15px;
+      @media (max-width: 768px) {
+        width: 96%;
+      }
       p {
         font-size: 1.8rem;
         line-height: 1.35;
@@ -56,7 +62,13 @@ export const AppStyle = styled.div`
       @media (max-width: 769px) {
         width: 95%;
         margin: 0 auto;
-        z-index: -1;
+        padding-bottom: 10px;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
+      }
+      @media (max-width: 414px) {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 #fff inset;
+        margin: 20px;
+        margin-bottom: 20px;
       }
       h4 {
         font-size: 2rem;
@@ -103,6 +115,12 @@ export const AppStyle = styled.div`
     padding: 40px;
     background: var(--dark-white);
     margin-bottom: 3px;
+    @media (max-width: 760px) {
+      padding: 30px;
+    }
+    @media (max-width: 414px) {
+      padding: 20px;
+    }
   }
   /* ------------> Product <---------------*/
   .product {
@@ -126,6 +144,9 @@ export const AppStyle = styled.div`
       margin-right: 11px;
       font-size: 1.3rem;
       color: var(--ptag-gray);
+      @media (max-width: 414px) {
+        display: none;
+      }
     }
     .filter-select {
       position: relative;
